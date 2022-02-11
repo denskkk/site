@@ -1,0 +1,136 @@
+/* Main page */
+
+.wrapper {
+  min-height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.page {
+  flex: 1 1 auto;
+}
+.page__section {
+  padding: 30px;
+  margin: 0px auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  .page__content {
+    max-width: 1480px;
+  }
+}
+.page__title {
+  font-size: 40px;
+  margin: 0px 0px 20px 0px;
+  color: #000;
+}
+.page__text {
+  font-size: 16px;
+  line-height: 150%;
+  p {
+    margin: 0px 0px 20px 0px;
+    color: #000;
+  }
+}
+.page__sub-title {
+  font-size: 30px;
+  margin: 0px 0px 20px 0px;
+  color: #000;
+}
+
+// Главная страница
+.page__section_1 {
+  display: flex;
+  background-image: url("../img/mainbg.jpg");
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  .page__title {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+    // background-color: red;
+  }
+  .page__sub-title {
+    color: #ffd337;
+    font-size: 64px;
+    text-align: center;
+    // background-color: green;
+  }
+}
+
+// Форма поиска
+ 
+.search {
+  &_form {
+    width: 1200px;
+    background-color: #fff;
+    height: 118px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+.form {
+
+		&__section {
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      // background-color: purple;
+      height: 50px;
+			// &_1 {
+			// }
+			// &_2 {
+			// }
+			// &_3 {
+			// }
+
+			&_4 {
+        background-color: #fe753f;
+        border-radius: 30px;
+        color: #fff;
+        width: 260px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+			}
+		}
+
+		&__selector {
+
+			&_1 {
+
+			}
+
+			&_2 {
+
+			}
+
+			&_3 {
+
+			}
+		}
+
+		&__param {
+      font-weight: bold;
+			&_1 {
+
+			}
+
+			&_2 {
+
+			}
+
+			&_3 {
+        
+			}
+		}
+}
